@@ -1,0 +1,125 @@
+h2 {
+  font-family: "Prompt", sans-serif;
+  text-align: left;
+  margin: 0 auto;
+}
+
+h4 {
+  font-family: "Prompt", sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  color: gray;
+}
+
+h5 {
+  font-family: "Prompt", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  border-color: none;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Prompt", sans-serif;
+  max-width: 800px;
+  max-height: 43.5px;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px;
+  border-color: white;
+  border: 0px solid transparent;
+  border-style: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-color: buttonborder;
+}
+
+.boxContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.tempToday {
+  text-align: left;
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+}
+
+.temp {
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Prompt", sans-serif;
+  font-size: 120px;
+}
+.tempNow {
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Prompt", sans-serif;
+  font-size: 100px;
+}
+.deg-celsius {
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Prompt", sans-serif;
+  font-size: 25px;
+}
+
+.deg-fahrenheit {
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Prompt", sans-serif;
+  font-size: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: "Prompt", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.degrees {
+  font-family: "Prompt", sans-serif;
+  font-size: 30px;
+  top: 0px;
+}
+
+.day {
+  padding: 10px 0 20px 0;
+}
+
+.todayWeather {
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detailsContainer {
+  font-family: "Prompt", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.card-group {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  font-family: "Prompt", sans-serif;
+  font-size: 15px;
+}

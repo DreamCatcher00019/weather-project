@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="boxContainer">
+      <ul>
+        <li class="container">
+          <form id="search-form">
+            <input
+              type="text"
+              id="search-text-city"
+              value=""
+              placeholder="Search city"
+              autofocus
+            />
+            <input type="submit" value="Search" />
+          </form>
+        </li>
+
+        <li class="btn">
+          <button>Current</button>
+        </li>
+      </ul>
+      <h1 class="tempToday">
+        <strong> <span class="temp" id="tempNow"></span> </strong>
+        <span class="deg-celsius" id="temp-celsius">
+          <a href="" class="tempCelsius">C</a>
+          |
+        </span>
+
+        <span class="deg-fahrenheit" id="temp-fahrenheit">
+          <a href="" class="tempFahrenheit">F</a>
+        </span>
+      </h1>
+
+      <h2 class="city" id="cityName">
+        <strong></strong>
+      </h2>
+      <h4 class="day" id="dayTime"></h4>
+
+      <div class="row">
+        <div class="col-md-7">
+          <img src="images/cloudy.png" alt="cloudy" width="220px" />
+          <span class="todayWeather">Partly Cloudy</span>
+        </div>
+
+        <div class="col-md-5">
+          <div class="detailsContainer">
+            <strong>High:</strong>
+            <span class="details" id="details-high"> </span>
+            <strong>Humidty:</strong>
+            <span class="details" id="details-hum"> </span>
+            <br />
+            <strong>Low: </strong>
+            <span class="details" id="details-low"> </span>
+            <strong> Wind:</strong>
+            <span class="details" id="details-wind"> </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <div class="card-tues">
+            <h5 class="card-title">Tue</h5>
+            <img src="images/sunny.png" alt="sunny" width="80px" />
+            <p class="card-text">Sunny</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-wed">
+            <h5 class="card-title">Wed</h5>
+            <img src="images/windy.png" alt="windy" width="80px" />
+            <p class="card-text">Windy</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-thurs">
+            <h5 class="card-title">Thurs</h5>
+            <img src="images/stormy.png" alt="stormy" width="80px" />
+            <p class="card-text">Stormy</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-fri">
+            <h5 class="card-title">Fri</h5>
+            <img src="images/cloudy.png" alt="cloudy" width="90px" />
+            <p class="card-text">Partly Cloudy</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-sat">
+            <h5 class="card-title">Sat</h5>
+            <img src="images/rainy.png" alt="rainy" width="80px" />
+            <p class="card-text">Rainy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
